@@ -1,5 +1,5 @@
 # https://github.com/elastic/logstash-docker
-FROM docker.elastic.co/logstash/logstash:5.4.1
+FROM docker.elastic.co/logstash/logstash:7.14.0
 
 RUN chmod 0777 /usr/share/logstash/data
 
